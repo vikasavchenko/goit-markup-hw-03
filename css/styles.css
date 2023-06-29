@@ -129,11 +129,10 @@ footer .logo-text {
     display: block;
     min-width: 169px;
     height: 56px;
-    bottom: none;
     background-color: var(--iris);
     border-radius: 4px;
     cursor: pointer;
-    bottom: none;
+    border: none;
 
 }
 
