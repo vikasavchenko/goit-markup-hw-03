@@ -262,11 +262,16 @@ footer .logo-text {
     width: calc();
 }
 
+.footer {
+    padding: 100px 0;
+}
+
 .footer-text {
     font-size: 16px;
     line-height: 1.5rem;
     letter-spacing: 0.02rem;
     color: var(--cloud, #F4F4FD);
+    min-width: 264px;
 }
 
 
