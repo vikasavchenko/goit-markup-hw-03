@@ -38,6 +38,25 @@ header,
 .section-team .team-item {
     background: var(--white, #FFF);
 }
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+.container {
+    display: flex;
+    width: 1158px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.container-nav {
+    display: flex;
+    align-items: center;
+
+}
+
+.container-nav-link {
+    display: flex;
+}
 
 .section-team {
     background: var(--cloud, #F4F4FD);
@@ -60,6 +79,7 @@ footer {
     letter-spacing: 0.03375rem;
     text-transform: uppercase;
     color: var(--iris, #4D5AE5);
+    margin-right: 76px;
 }
 
 header .logo-text {
@@ -88,6 +108,14 @@ footer .logo-text {
     color: var(--ocean, #404BBF);
 }
 
+.title {
+    max-width: 496px;
+}
+
+.section-title {
+    padding: 188px 0;
+}
+
 .section-title .title  {
     font-size: 56px;
     font-weight: 700;
@@ -95,6 +123,17 @@ footer .logo-text {
     letter-spacing: 0.07rem;
     text-align: center;
     color: var(--white, #FFF);
+}
+
+.order-button {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    bottom: none;
+    background-color: var(--iris);
+    border-radius: 4px;
+    cursor: pointer;
+
 }
 
 .section-title .order-button {
