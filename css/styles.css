@@ -133,6 +133,7 @@ footer .logo-text {
     background-color: var(--iris);
     border-radius: 4px;
     cursor: pointer;
+    bottom: none;
 
 }
 
