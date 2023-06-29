@@ -36,6 +36,11 @@ body {
     height: auto;
 }
 
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -71,17 +76,32 @@ header,
 .container-header {
     display: flex;
     align-items: center;
-
 }
 
 .container-nav {
     display: flex;
+    align-items: center;
 }
 
 
 
 .container-nav-link {
     display: flex;
+}
+
+.nav-list,
+.address-list {
+    display: flex;
+    gap: 40px;
+}
+
+.address-item {
+    padding: 24px 0;
+}
+
+.address-list {
+    display: flex;
+    gap: 40px;
 }
 
 .section-team {
@@ -224,6 +244,22 @@ footer .logo-text {
     line-height: 1.5rem;
     letter-spacing: 0.02rem;
     color: var(--slate, #434455);
+}
+.section-services {
+    padding-bottom: 120px;
+}
+
+.services-title {
+    margin-bottom: 72px;
+}
+
+.services-list {
+    display: flex;
+    gap: 24px;
+}
+
+.services-img {
+    width: calc();
 }
 
 .footer-text {
