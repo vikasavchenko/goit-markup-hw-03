@@ -26,11 +26,29 @@ body {
 
 .list {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .image {
     display: block;
+    min-width: 100%;
+    height: auto;
 }
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 
 header,
 .section-features,
@@ -44,15 +62,23 @@ header,
 .container {
     display: flex;
     width: 1158px;
-    margin: auto;
-    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-.container-nav {
+.container-header {
     display: flex;
     align-items: center;
 
 }
+
+.container-nav {
+    display: flex;
+}
+
+
 
 .container-nav-link {
     display: flex;
@@ -161,6 +187,26 @@ footer .logo-text {
     text-align: center;
     text-transform: capitalize;
     color: var(--navyblue, #2E2F42);
+}
+
+.section-features {
+    padding: 120px 0;
+
+}
+
+.features-list {
+    display: flex;
+    gap: 24px;
+
+}
+
+.features-item {
+
+}
+
+.feature-title{
+    margin-bottom: 8px;
+
 }
 
 .feature-title,
