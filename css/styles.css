@@ -19,6 +19,19 @@ body {
     background: var(--white, #FFF);
 }
 
+.link {
+    text-decoration: none;
+    color: var(--navyblue, #2E2F42);
+}
+
+.list {
+    list-style: none;
+}
+
+.image {
+    display: block;
+}
+
 header,
 .section-features,
 .section-services,
@@ -33,15 +46,6 @@ header,
 .section-title,
 footer {
     background: var(--navyblue, #2E2F42);
-}
-
-.link {
-    text-decoration: none;
-    color: var(--navyblue, #2E2F42);
-}
-
-.list {
-    list-style: none;
 }
 
 .address-info {
