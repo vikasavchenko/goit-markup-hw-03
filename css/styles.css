@@ -87,10 +87,6 @@ header,
     font-style: normal;
 }
 
-.container-nav-link {
-    display: flex;
-}
-
 .nav-list,
 .address-list {
     display: flex;
