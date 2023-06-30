@@ -315,12 +315,17 @@ footer .logo-text {
 
     color: var(--iris, #4D5AE5);
     background-color: var(--cloud, #F4F4FD);
+
+    padding: 12px 24px;
+    border: 1px solid var(--cornflower);
+    border-radius: 4px;
 }
 
 .filter-button:hover,
 .filter-button:focus{
     color: var(--white);
     background-color: var(--ocean);
+    border: 1px solid transparent;
 }
 
 .project-title {
@@ -336,4 +341,23 @@ footer .logo-text {
     line-height: 1.5rem;
     letter-spacing: 0.02rem;
     color: var(--slate, #434455);
+}
+.section-projects {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+.projects-filters {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    
 }
