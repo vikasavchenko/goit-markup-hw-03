@@ -316,11 +316,6 @@ footer .logo-text {
     color: var(--iris, #4D5AE5);
     background-color: var(--cloud, #F4F4FD);
 }
-/* 
-.filters-item:first-child .filter-button {
-    color: var(--white);
-    background-color: var(--ocean);
-} */
 
 .filter-button:hover,
 .filter-button:focus{
