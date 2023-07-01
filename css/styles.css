@@ -334,6 +334,7 @@ footer .logo-text {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navyblue, #2E2F42);
+    margin-bottom: 8px;
 }
 
 .project-type {
@@ -359,5 +360,12 @@ footer .logo-text {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    
+
 }
+
+.project-list-name {
+    padding: 32px 16px;
+    border: 1px solid var(--cornflower);
+    border-top: none;
+}
+
