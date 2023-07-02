@@ -294,6 +294,7 @@ footer .logo-text {
     line-height: 1.5rem;
     letter-spacing: 0.02rem;
     color: var(--cloud, #F4F4FD);
+    width: 25%;
     min-width: 264px;
 }
 
