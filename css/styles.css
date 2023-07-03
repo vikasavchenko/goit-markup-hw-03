@@ -165,6 +165,7 @@ footer .logo-text {
 
 .section-title .order-button {
     display: block;
+    min-width: 169px;
     
     border-radius: 4px;
     border: none;
