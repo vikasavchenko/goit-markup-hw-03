@@ -160,20 +160,17 @@ footer .logo-text {
     letter-spacing: 0.07rem;
     text-align: center;
     color: var(--white, #FFF);
-}
-
-.order-button {
-    display: block;
-    min-width: 169px;
-    height: 56px;
-    background-color: var(--iris);
-    border-radius: 4px;
-    cursor: pointer;
-    border: none;
-
+    margin: 0 auto 48px auto;
 }
 
 .section-title .order-button {
+    display: block;
+    
+    border-radius: 4px;
+    border: none;
+    padding: 16px 32px;
+    margin: 0 auto;
+    
     font-family: inherit;
     font-size: 16px;
     font-weight: 500;
@@ -289,7 +286,6 @@ footer .logo-text {
 }
 
 .footer-text {
-    margin-top: 16px;
     font-size: 16px;
     line-height: 1.5rem;
     letter-spacing: 0.02rem;
